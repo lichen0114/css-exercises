@@ -9,7 +9,167 @@
   </head>
   <body>
     <p class="para">I'm just a paragraph with extra bold text!</p>
-    <p class="para small-para">I'm a smaller paragraph, also with extra bold text!</p>
+    <p class="/* Overall styles for a modern clean layout with a gentle background gradient */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(135deg, #f7f7f7, #e2e2e2);
+  color: #333;
+  padding: 20px;
+}
+
+/* Paragraph styling with smooth color transition on hover */
+.para,
+.small-para {
+  color: #222;
+  font-weight: 800;
+  transition: color 0.3s ease;
+}
+
+.para:hover,
+.small-para:hover {
+  color: #007acc;
+}
+
+/* Font sizes remain as defined */
+.small-para {
+  font-size: 14px;
+}
+
+.para {
+  font-size: 22px;
+}
+
+/* Button base styles with padding, border radius, and smooth transitions */
+.button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 5px;
+  color: #fff;
+  background-size: 200% auto;
+}
+
+/* Color specific button styles with gradients */
+.confirm {
+  background-image: linear-gradient(45deg, #28a745, #218838);
+}
+
+.cancel {
+  background-image: linear-gradient(45deg, #dc3545, #c82333);
+}
+
+/* Button hover effects: lift and shadow effect along with background gradient shift */
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-position: right center;
+}
+
+/* Text container styling */
+div.text {
+  color: #444;
+  font-size: 22px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+/* Child text div with subtle hover effects and a light gradient background on hover */
+.text.child {
+  color: #555;
+  font-weight: 800;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 5px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.text.child:hover {
+  background: linear-gradient(45deg, #fff, #e0e0e0);
+  transform: scale(1.03);
+}/* Overall styles for a modern clean layout with a gentle background gradient */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(135deg, #f7f7f7, #e2e2e2);
+  color: #333;
+  padding: 20px;
+}
+
+/* Paragraph styling with smooth color transition on hover */
+.para,
+.small-para {
+  color: #222;
+  font-weight: 800;
+  transition: color 0.3s ease;
+}
+
+.para:hover,
+.small-para:hover {
+  color: #007acc;
+}
+
+/* Font sizes remain as defined */
+.small-para {
+  font-size: 14px;
+}
+
+.para {
+  font-size: 22px;
+}
+
+/* Button base styles with padding, border radius, and smooth transitions */
+.button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 5px;
+  color: #fff;
+  background-size: 200% auto;
+}
+
+/* Color specific button styles with gradients */
+.confirm {
+  background-image: linear-gradient(45deg, #28a745, #218838);
+}
+
+.cancel {
+  background-image: linear-gradient(45deg, #dc3545, #c82333);
+}
+
+/* Button hover effects: lift and shadow effect along with background gradient shift */
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-position: right center;
+}
+
+/* Text container styling */
+div.text {
+  color: #444;
+  font-size: 22px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+/* Child text div with subtle hover effects and a light gradient background on hover */
+.text.child {
+  color: #555;
+  font-weight: 800;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 5px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.text.child:hover {
+  background: linear-gradient(45deg, #fff, #e0e0e0);
+  transform: scale(1.03);
+}para small-para">I'm a smaller paragraph, also with extra bold text!</p>
 
     <button id="confirm-button" class="button confirm">Confirm</button>
     <button id="cancel-button" class="button cancel">Cancel</button>
@@ -20,3 +180,84 @@
     </div>
   </body>
 </html>
+/* Overall styles for a modern clean layout with a gentle background gradient */
+body {
+font-family: 'Helvetica Neue', Arial, sans-serif;
+background: linear-gradient(135deg, #f7f7f7, #e2e2e2);
+color: #333;
+padding: 20px;
+}
+
+/* Paragraph styling with smooth color transition on hover */
+.para,
+.small-para {
+color: #222;
+font-weight: 800;
+transition: color 0.3s ease;
+}
+
+.para:hover,
+.small-para:hover {
+color: #007acc;
+}
+
+/* Font sizes remain as defined */
+.small-para {
+font-size: 14px;
+}
+
+.para {
+font-size: 22px;
+}
+
+/* Button base styles with padding, border radius, and smooth transitions */
+.button {
+padding: 10px 20px;
+font-size: 20px;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+margin: 5px;
+color: #fff;
+background-size: 200% auto;
+}
+
+/* Color specific button styles with gradients */
+.confirm {
+background-image: linear-gradient(45deg, #28a745, #218838);
+}
+
+.cancel {
+background-image: linear-gradient(45deg, #dc3545, #c82333);
+}
+
+/* Button hover effects: lift and shadow effect along with background gradient shift */
+.button:hover {
+transform: translateY(-3px);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+background-position: right center;
+}
+
+/* Text container styling */
+div.text {
+color: #444;
+font-size: 22px;
+font-weight: 100;
+margin-top: 20px;
+}
+
+/* Child text div with subtle hover effects and a light gradient background on hover */
+.text.child {
+color: #555;
+font-weight: 800;
+font-size: 14px;
+margin-top: 10px;
+padding: 5px;
+transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.text.child:hover {
+background: linear-gradient(45deg, #fff, #e0e0e0);
+transform: scale(1.03);
+}

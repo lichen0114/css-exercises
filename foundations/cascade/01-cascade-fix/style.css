@@ -21,7 +21,86 @@ body {
   background: green;
   color: white;
   font-weight: bold;
-} 
+} /* Overall styles for a modern clean layout */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 20px;
+}
+
+/* Paragraph styling with smooth color transition on hover */
+.para,
+.small-para {
+  color: #222;
+  font-weight: 800;
+  transition: color 0.3s ease;
+}
+
+.para:hover,
+.small-para:hover {
+  color: #007acc;
+}
+
+/* Font sizes remain as defined */
+.small-para {
+  font-size: 14px;
+}
+
+.para {
+  font-size: 22px;
+}
+
+/* Button base styles with padding, border radius, and smooth transitions */
+.button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 5px;
+}
+
+/* Color specific button styles */
+.confirm {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.cancel {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+/* Button hover effects: lift and shadow effect */
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Text container styling */
+div.text {
+  color: #444;
+  font-size: 22px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+/* Child text div with subtle hover effects */
+.text.child {
+  color: #555;
+  font-weight: 800;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.text.child:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.03);
+}
 
 .button {
   background-color: rgb(255, 255, 255);
